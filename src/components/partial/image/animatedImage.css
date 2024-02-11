@@ -1,0 +1,14 @@
+.spinning-image {
+    width: 200px; /* Set the width and height of the image container */
+    height: 200px;
+    transition: transform 0.5s; /* Apply a transition for the transform property */
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+  }
+  
+  .spin {
+    transform: rotate(360deg); /* Rotate the image 360 degrees when the 'spin' class is applied */
+    transition: transform 1s; /* Apply a longer transition for the spin animation */
+  }
